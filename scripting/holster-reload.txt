@@ -1,0 +1,57 @@
+"HolsterReload" //place this in "addons/sourcemod/configs"
+{
+	"scout"
+	{
+		"reload_time"		"100.0" //put '100.0' to disable backpack reloading for this class!
+		"single_or_all_reload"	"0" //1 for single and 0 for clip to be reloaded at once
+		"reload_interval"	"1" //how much ammo will be reloaded each time, ignored if "single_or_all_reload" is 1
+	}
+	"sniper"
+	{
+		"reload_time"		"3.0"
+		"single_or_all_reload"	"0"
+		"reload_interval"	"1" 
+	}
+	"soldier"
+	{
+		"reload_time"		"1.0"
+		"single_or_all_reload"	"1"
+		"reload_interval"	"1" 
+	}
+	"demo"
+	{
+		"reload_time"		"1.0"
+		"single_or_all_reload"	"1"
+		"reload_interval"	"1" 
+	}
+	"medic"
+	{
+		"reload_time"		"3.0"
+		"single_or_all_reload"	"0"
+		"reload_interval"	"1" 
+	}
+	"heavy"
+	{
+		"reload_time"		"100.0"
+		"single_or_all_reload"	"0"
+		"reload_interval"	"1" 
+	}
+	"pyro"
+	{
+		"reload_time"		"3.0"
+		"single_or_all_reload"	"0"
+		"reload_interval"	"1" 
+	}
+	"spy"
+	{
+		"reload_time"		"3.0"
+		"single_or_all_reload"	"0"
+		"reload_interval"	"1" 
+	}
+	"engie"
+	{
+		"reload_time"		"1.0"
+		"single_or_all_reload"	"1"
+		"reload_interval"	"1" 
+	}
+}
